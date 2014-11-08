@@ -75,9 +75,16 @@ def registerPage():
             return render_template("register.html")
 
 
+@app.route("/manage_account")
 @app.route("/manage_account/<username>")
 def manageAccountPage(username):
-    pass
+    if "user" not in session:
+        session["nextpage"] = "/manage_account"
+        return redirect("/login")
+    if "user" in session:
+        accountSettings = {}
+        # accountSettings = db.getAccountSettings(session["user"])
+        return render_template("account_settings.html", accountSettings)
 
 
 def handleRedirect(redirectPage="/"):
