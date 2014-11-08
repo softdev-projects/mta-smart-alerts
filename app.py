@@ -27,6 +27,7 @@ def loginPage():
     if "user" in session:
         return redirect("/")
 
+    errors = {"invalid login": "Login invalid"}
     if request.method == "GET":
         return render_template("login.html")
     else:
@@ -39,8 +40,10 @@ def loginPage():
             session["user"] = fieldUsername
             return handleRedirect()
         else:
-            flash("Login Invalid")
-            return render_template("login.html", loggedIn=False)
+            error = errors["invalid login"]
+            return render_template("login.html",
+                                   error=error,
+                                   loggedIn=False)
 
 
 @app.route("/logout")
@@ -53,10 +56,14 @@ def logoutPage():
     return handleRedirect()
 
 
-@app.route("/register")
+@app.route("/register", methods=["GET", "POST"])
 def registerPage():
     if "user" in session:
         return handleRedirect()
+
+    errors = {"user-exists": "Email already exists",
+              "phone-exists": "Phone number already exists",
+              "password-short": "Password is too short"}
     if request.method == "GET":
         return render_template("register.html")
     else:
@@ -64,14 +71,14 @@ def registerPage():
         fieldPhone = request.form["phone"]
         fieldPassword = request.form["password"]
 
-        success = login.addUser(fieldUsername, fieldPassword)
+        success = login.addUser(fieldUsername, fieldPassword, fieldPhone)
 
         if success:
             session["user"] = fieldUsername
             handleRedirect()
         else:
-            flash("Email already exists")
-            return render_template("register.html")
+            error = errors["user-exists"]
+            return render_template("register.html", error=error)
 
 
 @app.route("/manage_account")
