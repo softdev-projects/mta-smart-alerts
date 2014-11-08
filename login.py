@@ -36,7 +36,7 @@ def logout(name, dbname="users", dbCollectionName="people"):
     return success
 
 
-def updateAuthenticated(name, authenticated, dbname="users", dbCollectionName="people"):
+def updateUser(name, authenticated, dbname="users", dbCollectionName="people"):
     """string name, Boolean authenticated, string dbname, string dbCollectioName
     Logs the user in if authenticated is True
     Logs the user out if authenticated is False

@@ -47,9 +47,8 @@ def loginPage():
 def logoutPage():
     if "user" in session:
         username = session["user"]
-        password = session["password"]
 
-        login.logout(username, password)
+        login.logout(username)
         session.pop("user")
     return handleRedirect()
 
