@@ -6,6 +6,7 @@ from pymongo import Connection
 nameKey = 'name'
 passwordKey = 'password'
 authenticatedKey = 'authenticated'
+phoneKey = 'phone'
 
 
 def login(name, password, dbname="users", dbCollectionName="people"):
@@ -35,7 +36,7 @@ def logout(name, dbname="users", dbCollectionName="people"):
     return success
 
 
-def updateUser(name, authenticated, dbname="users", dbCollectionName="people"):
+def updateAuthenticated(name, authenticated, dbname="users", dbCollectionName="people"):
     """string name, Boolean authenticated, string dbname, string dbCollectioName
     Logs the user in if authenticated is True
     Logs the user out if authenticated is False
@@ -58,8 +59,10 @@ def updateUser(name, authenticated, dbname="users", dbCollectionName="people"):
     return success
 
 
-def addUser(name, password, dbname="users", dbCollectionName="people"):
-    """string name, string password, string dbname, string dbCollectionName
+def addUser(name, password, phone, dbname="users", dbCollectionName="people"):
+    """string name, string password, string phone,
+    string dbname, string dbCollectionName
+
     adds user to the database and returns False is username already exists
 
     automatically logs the user in after creating the account"""
@@ -71,6 +74,7 @@ def addUser(name, password, dbname="users", dbCollectionName="people"):
     if (not isInDatabase(name, dbname, dbCollectionName)):
         # Jsonifies the User, authenticated True means the user is logged in
         user = {nameKey: name,
+                phoneKey: phone,
                 passwordKey: password,
                 authenticatedKey: True}
         people = db[dbCollectionName]

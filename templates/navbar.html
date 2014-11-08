@@ -1,0 +1,28 @@
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">MSA</a>
+
+        <ul id="std-menu-items">
+            <li class="pure-menu-selected"><a href="#">Home</a></li>
+            <li><a href="#">Tour</a></li>
+
+            {% if loggedIn %}
+                <li>
+                    <a href="#">{{ username }}</a>
+                    <ul>
+                        <li><a href="#">Manage Account</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </li>
+            {% else %}
+                <li>
+                    <a href="#">Log in</a>
+                    <ul>
+                        <li><a href="#">Log in</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                    </ul>
+                </li>
+            {% endif %}
+        </ul>
+    </div>
+</div>
