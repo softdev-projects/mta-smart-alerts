@@ -45,4 +45,5 @@ class MTASubwayDelay(object):
         self.line = line_node.find('name').text
         self.info = line_node.find('text').text
         self.date = datetime.strptime(line_node.find('Date').text, '%m/%d/%Y')
-        self.time = datetime.strptime(line_node.find('Time').text, '%I:%M%p')
+        self.time = datetime.strptime(line_node.find('Time').text.strip(),
+                                      '%I:%M%p')
