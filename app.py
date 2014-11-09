@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, session
 
 import login
+import mta
 
 app = Flask(__name__)
 
@@ -79,6 +80,14 @@ def manageAccountPage(username):
         accountSettings = {}
         # accountSettings = db.getAccountSettings(session["user"])
         return render_template("account_settings.html", accountSettings)
+
+
+@app.route("/status")
+def statusPage():
+    service = mta.service_status()
+    return render_template("status.html",
+                           has_delays=service.has_delays(),
+                           delays=service.delays)
 
 
 def handleRedirect(redirectPage="/"):
