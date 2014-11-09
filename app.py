@@ -14,24 +14,24 @@ def home():
 def loginPage():
     if "user" in session:
         return redirect("/")
-
-    errors = {"invalid login": "Login invalid"}
     if request.method == "GET":
         return render_template("login.html")
+
+    errors = {"invalid login": "Login invalid"}
+
+    fieldUsername = request.form["username"]
+    fieldPassword = request.form["password"]
+
+    success = login.login(fieldUsername, fieldPassword)
+
+    if success:
+        session["user"] = fieldUsername
+        return handleRedirect()
     else:
-        fieldUsername = request.form["username"]
-        fieldPassword = request.form["password"]
-
-        success = login.login(fieldUsername, fieldPassword)
-
-        if success:
-            session["user"] = fieldUsername
-            return handleRedirect()
-        else:
-            error = errors["invalid login"]
-            return render_template("login.html",
-                                   error=error,
-                                   loggedIn=False)
+        error = errors["invalid login"]
+        return render_template("login.html",
+                               error=error,
+                               loggedIn=False)
 
 
 @app.route("/logout")
