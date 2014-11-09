@@ -7,14 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    loggedIn = False
-    username = ""
-    if "user" in session:
-        loggedIn = True
-        username = session["user"]
-
-    # pass in values of username so that it shows up in navbar
-    return render_template("home.html", username=username, loggedIn=loggedIn)
+    return render_template("home.html")
 
 
 @app.route("/login", methods=["GET", "POST"])

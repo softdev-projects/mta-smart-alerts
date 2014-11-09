@@ -3,8 +3,8 @@
         <a class="pure-menu-heading" href="">MTA Smart Alerts</a>
 
         <ul id="std-menu-items">
-            {% if loggedIn %}
-                <li><a href="#">{{ username }}</a></li>
+            {% if session['user'] %}
+                <li><a href="#">{{ session['user'] }}</a></li>
                 <li><a href="/manage_account">Manage Account</a></li>
                 <li><a href="/logout">Logout</a></li>
             {% else %}
