@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, session
 
 import login
 import mta
+import twilio
 
 app = Flask(__name__)
 
@@ -96,6 +97,15 @@ def handleRedirect(redirectPage="/"):
         n = redirectPage
 
     return redirect(n)
+
+
+app.route("/twilio/receive",methods=["GET","POST"]):
+def test():
+	if request.method=="GET":
+		twilio.send_message()
+	if request.method=="POST":
+		pass()
+
 
 
 def main():
