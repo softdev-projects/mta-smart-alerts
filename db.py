@@ -3,23 +3,25 @@ from datetime import time
 
 
 class User(object):
-    def __init__(self, name=None, password=None, phone=None, alarm=None):
-        """docstring for __init__"""
-        pass
-
-    def setEmail(self, name):
-        '''string name is an email'''
+    def setName(self, name):
+        '''string name, is the user's email or username'''
         self.name = name
 
     def setPassword(self, password):
+        '''string password'''
         self.password = password
 
     def setPhone(self, phone):
-        """docstring for setPhone"""
+        """string phone number, ONLY NUMBERS PLEASE"""
         self.phone = phone
 
     def setAlarm(self, alarm):
+        '''class Alarm'''
         self.alarm = alarm
+
+    def setAuthenticated(self, isAuthenticated):
+        '''boolean isAuthenticated'''
+        self.authenticated = isAuthenticated
 
     def jsonify(self):
         '''returns a Dictionary in Json Format to insert into a mongo db'''
@@ -31,6 +33,8 @@ class User(object):
 
 
 class Alarm(object):
+    '''Object that contains the lines that the user wants to be alerted for
+    and the time that they want to be alerted'''
     def __init__(self, alarmtime, lines):
         '''time time, List of chars for lines'''
         self.alarmtime = alarmtime
@@ -52,9 +56,20 @@ def updateUser(user, dbname="users", dbCollectionName="people"):
     # username/email must have been set so that it can locate the user in the
     # database
     if (not user.name):
-        return False
+        success = False
     else:
-        pass
+        D = user.jsonify()
+
+        if (isInDatabase(user, dbname, dbCollectionName)):
+            people = db[dbCollectionName]
+
+            for key, value in D.iteritems():
+                if value is not None:
+                    people.update({'name': user.name},
+                                  {"$set": {key: value}},
+                                  upsert=False)
+
+    return success
 
 
 def addUser(user, dbname="users", dbCollectionName="people"):
