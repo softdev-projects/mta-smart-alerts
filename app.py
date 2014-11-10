@@ -85,9 +85,7 @@ def manageAccountPage(username):
 @app.route("/status")
 def statusPage():
     service = mta.service_status()
-    return render_template("status.html",
-                           has_delays=service.has_delays(),
-                           delays=service.delays)
+    return render_template("status.html", service=service)
 
 
 def handleRedirect(redirectPage="/"):
