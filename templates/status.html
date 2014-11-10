@@ -14,8 +14,8 @@
         <div class="pure-u-1-1">
             <div class="align-middle-vertical align-middle-horizontal">
                 <h3 class="is-center is-header">{% block header %}Service Status{% endblock %}</h3>
-                {% if service.has_delays %}
-                  <strong>As of {{ service.retrieved_at }},</strong>
+                {% if service.has_delays() %}
+                <p>As of {{ service.retrieved_at }},</p>
                   {% for delay in service.delays %}
                   <p>There is a delay on the {{ delay.line }} line.</p>
                   {% endfor %}

@@ -43,6 +43,36 @@ class Alarm(object):
         return D
 
 
+def updateUser(user, dbname="users", dbCollectionName="people"):
+    success = True
+
+    conn = Connection()
+    db = conn[dbname]
+
+    # username/email must have been set so that it can locate the user in the
+    # database
+    if (not user.name):
+        return False
+    else:
+        pass
+
+
+def addUser(user, dbname="users", dbCollectionName="people"):
+    success = True
+
+    conn = Connection()
+    db = conn[dbname]
+
+    if (not isInDatabase(user, dbname, dbCollectionName)):
+        jsonUserObject = user.jsonify()
+        people = db[dbCollectionName]
+        people.insert(jsonUserObject)
+    else:
+        success = False
+
+    return success
+
+
 def isInDatabase(user, dbname="users", dbCollectionName="people"):
     '''takes User object, email must have been set'''
     conn = Connection()
