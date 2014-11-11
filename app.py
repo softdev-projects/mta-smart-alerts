@@ -96,11 +96,13 @@ def statusPage():
          'gtrain': [],
          'grey': [],
          'brown': [],
+         'yellow': [],
          'color': []}
 
     red = ["1", "2", "3"]
     green = ["4", "5", "6"]
     purple = ["7"]
+    yellow = ["N", "Q", "R"]
     blue = ["A", "C", "E"]
     orange = ["B", "D", "F", "M"]
     gtrain = ["G"]
@@ -132,6 +134,9 @@ def statusPage():
         elif delay.line in brown:
             D['brown'].append(delay.line)
             brown.remove(delay.line)
+        elif delay.line in yellow:
+            D['yellow'].append(delay.line)
+            yellow.remove(delay.line)
         else:
             D['color'].append(delay.line)
 
@@ -142,6 +147,7 @@ def statusPage():
           'orange': orange,
           'gtrain': gtrain,
           'grey': grey,
+          'yellow': yellow,
           'brown': brown}
 
     return render_template("status.html", service=service, colors=D, running=D2)
