@@ -154,6 +154,16 @@ def statusPage():
     return render_template("status.html", service=service, colors=D, running=D2)
 
 
+@app.route("/status_fake")
+def status_page_fake():
+    with open("test/no_delay.xml") as f:
+        fake_xml = f.read()
+
+    print fake_xml
+    service = mta.MTASubwayStatus(fake_xml)
+    return render_template("status.html", service=service)
+
+
 def handleRedirect(redirectPage="/"):
     if "nextpage" in session:
         n = session["nextpage"]
