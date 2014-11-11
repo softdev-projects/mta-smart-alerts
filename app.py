@@ -99,12 +99,12 @@ def handleRedirect(redirectPage="/"):
     return redirect(n)
 
 
-app.route("/twilio/receive",methods=["GET","POST"])
+@app.route("/twilio/receive",methods=["GET","POST"])
 def test():
 	if request.method=="GET":
 		twilio.send_message()
 	if request.method=="POST":
-		print "haven't set up receiving messages yet"
+            print "haven't set up receiving messages yet"
 
 
 
