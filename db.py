@@ -22,6 +22,12 @@ class User(object):
         """must take a string as the username"""
         self.name = name
 
+        # initialize everything as None originally
+        self.setPassword(None)
+        self.setPhone(None)
+        self.setAuthenticated(None)
+        self.setAlarm(Alarm(None, None))
+
         # allow the creation of the object from a dictionary for convenience
         if D is not None:
             self.setName(D['name'])
