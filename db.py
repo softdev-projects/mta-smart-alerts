@@ -1,10 +1,36 @@
+"""handles mongodb functions
+schema of the database in json format
+
+{'name': (string),
+ 'password: (string),
+ 'phone': (string),
+ 'authenticated': (boolean),
+ 'alarm': {'time': (datetime.datetime),
+           'lines': (iter(Strings))
+
+* Note - datetime.datetime includes year, month, day, hour, and minute, but
+         disregard year, month, and day for alarm time purposes
+       - Assume 'lines' is a set(Strings)
+       - authenticated doesn't really do anything right now
+       - updateUser() does not support changing name"""
+
 from pymongo import Connection
 
 
 class User(object):
-    def __init__(self, name):
+    def __init__(self, name, D=None):
         """must take a string as the username"""
         self.name = name
+
+        # allow the creation of the object from a dictionary for convenience
+        if D is not None:
+            self.setName(D['name'])
+            self.setPassword(D['password'])
+            self.setPhone(D['phone'])
+            self.setAuthenticated(D['authenticated'])
+
+            alarm = Alarm(D['time'], D['lines'])
+            self.setAlarm(alarm)
 
     def setName(self, name):
         '''string name, is the user's email or username'''
@@ -52,6 +78,9 @@ class Alarm(object):
 
 
 def updateUser(user, dbname="users", dbCollectionName="people"):
+    """User user, String dbname="users", String dbCollectionName="people"
+
+    updateUser cannot change the user's email/username"""
     success = True
 
     conn = Connection()
