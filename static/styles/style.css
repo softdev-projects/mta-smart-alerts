@@ -149,3 +149,34 @@ body {
     text-align: center;
     line-height: 100px;
 }
+
+.yellow {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #fccc0a;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+
+.color {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: grey;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+
+.left-float {
+    float: left;
+    width: 100px;
+}
