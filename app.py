@@ -86,7 +86,65 @@ def manageAccountPage(username):
 @app.route("/status")
 def statusPage():
     service = mta.service_status()
-    return render_template("status.html", service=service)
+
+    # separate the lines for styling
+    D = {'red': [],
+         'green': [],
+         'purple': [],
+         'blue': [],
+         'orange': [],
+         'gtrain': [],
+         'grey': [],
+         'brown': [],
+         'color': []}
+
+    red = ["1", "2", "3"]
+    green = ["4", "5", "6"]
+    purple = ["7"]
+    blue = ["A", "C", "E"]
+    orange = ["B", "D", "F", "M"]
+    gtrain = ["G"]
+    grey = ["L", "S"]
+    brown = ["J", "Z"]
+
+    for delay in service.delays:
+        if delay.line in red:
+            D['red'].append(delay.line)
+            red.remove(delay.line)
+        elif delay.line in green:
+            D['green'].append(delay.line)
+            green.remove(delay.line)
+        elif delay.line in purple:
+            D['purple'].append(delay.line)
+            purple.remove(delay.line)
+        elif delay.line in blue:
+            D['blue'].append(delay.line)
+            blue.remove(delay.line)
+        elif delay.line in orange:
+            D['orange'].append(delay.line)
+            orange.remove(delay.line)
+        elif delay.line in gtrain:
+            D['gtrain'].append(delay.line)
+            gtrain.remove(delay.line)
+        elif delay.line in grey:
+            D['grey'].append(delay.line)
+            grey.remove(delay.line)
+        elif delay.line in brown:
+            D['brown'].append(delay.line)
+            brown.remove(delay.line)
+        else:
+            D['color'].append(delay.line)
+
+    D2 = {'red': red,
+          'green': green,
+          'purple': purple,
+          'blue': blue,
+          'orange': orange,
+          'gtrain': gtrain,
+          'grey': grey,
+          'brown': brown}
+
+    return render_template("status.html", service=service, colors=D, running=D2)
 
 
 def handleRedirect(redirectPage="/"):

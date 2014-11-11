@@ -12,16 +12,31 @@
     {% include 'navbar.html' %}
     <div class="pure-g">
         <div class="pure-u-1-1">
-            <div class="align-middle-vertical align-middle-horizontal">
-                <h3 class="is-center is-header">{% block header %}Service Status{% endblock %}</h3>
+            <div class="align-middle-horizontal">
+                <h3 class="is-center is-header">{% block header %}Delays{% endblock %}</h3>
                 {% if service.has_delays() %}
                 <p>As of {{ service.retrieved_at }},</p>
                   {% for delay in service.delays %}
                   <p>There is a delay on the {{ delay.line }} line.</p>
                   {% endfor %}
                 {% else %}
+                  {% for key, value in colors.iteritems() %}
+                    {% if value|length > 0 %}
+                        {% for line in value %}
+                            <div class={{key}}>{{line}}</div>
+                        {% endfor %}
+                    {% endif %}
+                  {% endfor %}
                 <p>There are no delays.</p>
                 {% endif %}
+                <h3 class="is-center is-header">Normal Service</h3>
+                {% for key, value in running.iteritems() %}
+                {% if value|length > 0 %}
+                    {% for line in value %}
+                        <div class={{key}}>{{line}}</div>
+                    {% endfor %}
+                {% endif %}
+                {% endfor %}
             </div>
         </div>
     </div>

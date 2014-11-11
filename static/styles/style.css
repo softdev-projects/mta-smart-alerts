@@ -45,3 +45,107 @@ body {
     margin-bottom: 0px;
     color: red;
 }
+
+.red {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #ee352e;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+
+.blue {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #2850ad;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+
+.orange {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #f66319;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+
+.brown {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #996633;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+
+.grey {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: grey;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+
+.gtrain {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: green;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+
+.purple {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #b933ad;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+
+.green {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #00933c;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
