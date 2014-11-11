@@ -104,7 +104,7 @@ def test():
 	if request.method=="GET":
 		twilio.send_message()
 	if request.method=="POST":
-		print "haven't set up receiving messages yet"
+		pass()
 
 
 
