@@ -9,7 +9,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("home.html")
+    # return render_template("home.html")
+    return statusPage()
 
 
 @app.route("/login", methods=["GET", "POST"])
