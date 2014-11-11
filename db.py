@@ -1,8 +1,11 @@
 from pymongo import Connection
-from datetime import time
 
 
 class User(object):
+    def __init__(self, name):
+        """must take a string as the username"""
+        self.name = name
+
     def setName(self, name):
         '''string name, is the user's email or username'''
         self.name = name
@@ -28,6 +31,7 @@ class User(object):
         D = {'name': self.name,
              'password': self.password,
              'phone': self.phone,
+             'authenticated': self.authenticated,
              'alarm': self.alarm.jsonify()}
         return D
 
@@ -36,7 +40,7 @@ class Alarm(object):
     '''Object that contains the lines that the user wants to be alerted for
     and the time that they want to be alerted'''
     def __init__(self, alarmtime, lines):
-        '''time time, List of chars for lines'''
+        '''datetime alarmtime, List of chars for lines'''
         self.alarmtime = alarmtime
         self.lines = lines
 
@@ -68,6 +72,8 @@ def updateUser(user, dbname="users", dbCollectionName="people"):
                     people.update({'name': user.name},
                                   {"$set": {key: value}},
                                   upsert=False)
+        else:
+            success = False
 
     return success
 
@@ -96,6 +102,6 @@ def isInDatabase(user, dbname="users", dbCollectionName="people"):
     # returns a collection of users
     people = db[dbCollectionName]
 
-    success = (people.find({'user': user.name}).count() == 1)
+    success = (people.find({'name': user.name}).count() >= 1)
 
     return success
