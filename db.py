@@ -6,7 +6,16 @@ schema of the database in json format
  'phone': (string),
  'authenticated': (boolean),
  'alarm': {'time': (datetime.datetime),
-           'lines': (iter(Strings))
+           'lines': (iter(Strings))}}
+
+Some values can be None
+
+{'name': (cannot be None),
+ 'password: (None),
+ 'phone': (None),
+ 'authenticated': (None),
+ 'alarm': {'time': (None),
+           'lines': (None)}}
 
 * Note - datetime.datetime includes year, month, day, hour, and minute, but
          disregard year, month, and day for alarm time purposes
