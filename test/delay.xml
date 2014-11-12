@@ -1,0 +1,840 @@
+<service>
+  <responsecode>0</responsecode>
+  <timestamp>11/12/2014 12:11:55 AM</timestamp>
+  <subway>
+    <line>
+      <name>123</name>
+      <status>PLANNED WORK</status>
+      <text>
+                    &lt;span class="TitlePlannedWork" &gt;Planned Work&lt;/span&gt;
+                    &lt;br/&gt;
+                  &lt;a class="plannedWorkDetailLink" onclick=ShowHide(83112);&gt;
+&lt;b&gt;[1] Van Cortlandt Park-bound trains skip 50, 59, 66, &lt;/font&gt;79 and 86 Sts
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 83112 class="plannedWorkDetail" &gt;&lt;/b&gt;Late Nights, 11:45 PM to 5 AM, Mon to Fri, Nov 10 - 14
+&lt;br&gt;
+&lt;br&gt;For service&lt;i&gt; to&lt;/i&gt; these stations, take the [1] to 72 St or 96 St and
+&lt;br&gt;&lt;/font&gt;transfer to a downtown [1] or [2] &lt;i&gt;local&lt;/i&gt;.
+&lt;br&gt;
+&lt;br&gt;For service &lt;i&gt;from&lt;/i&gt; these stations, take the [1] &lt;/font&gt;or [2] to 72 St or
+&lt;br&gt;Times Sq-42 St and transfer to a Van Cortlandt Park-bound [1].
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              
+                    &lt;span class="TitlePlannedWork" &gt;Planned Work&lt;/span&gt;
+                    &lt;br/&gt;
+                  &lt;a class="plannedWorkDetailLink" onclick=ShowHide(83109);&gt;
+&lt;b&gt;[1] South Ferry-bound trains skip Christopher, Houston, Canal and Franklin Sts
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 83109 class="plannedWorkDetail" &gt;&lt;/b&gt;Late Nights, 11:45 PM to 5 AM, Mon to Fri, Nov 10 - 14
+&lt;br&gt;
+&lt;br&gt;For service &lt;i&gt;to&lt;/i&gt; these stations, take the [1] to Chambers St and transfer to an uptown [1] or [2] &lt;i&gt;local&lt;/i&gt;.
+&lt;br&gt;
+&lt;br&gt;For service&lt;i&gt; from&lt;/i&gt; these stations, take the [1] or [2] to 14 St and transfer to a South Ferry-bound [1].
+&lt;br&gt;&lt;/font&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+      <Date>11/12/2014</Date>
+      <Time>12:03AM</Time>
+    </line>
+    <line>
+      <name>456</name>
+      <status>PLANNED WORK</status>
+      <text>
+                    &lt;span class="TitlePlannedWork" &gt;Planned Work&lt;/span&gt;
+                    &lt;br/&gt;
+                  &lt;a class="plannedWorkDetailLink" onclick=ShowHide(82660);&gt;
+&lt;b&gt;[6]&lt;/b&gt; &lt;b&gt;Brooklyn Bridge-bound trains skip Longwood Av, E 149 St, E 143 St, Cypress Av and Brook Av
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 82660 class="plannedWorkDetail" &gt;&lt;/b&gt;Late Nights, 11:45 PM to 5 AM, Mon to Fri, until Nov 21
+&lt;br&gt;
+&lt;br&gt;For service &lt;i&gt;to&lt;/i&gt; these stations, take the [6] to 3 Av-138 St and transfer to a Pelham Bay Park-bound [6].
+&lt;br&gt;
+&lt;br&gt;For service &lt;i&gt;from&lt;/i&gt; these stations, take the [6] to Hunts Point Av and transfer to a Brooklyn Bridge-bound [6].
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              
+                    &lt;span class="TitlePlannedWork" &gt;Planned Work&lt;/span&gt;
+                    &lt;br/&gt;
+                  &lt;a class="plannedWorkDetailLink" onclick=ShowHide(83118);&gt;
+&lt;b&gt;[4] No trains between Brooklyn Bridge and Atlantic Av-Barclays Ctr
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 83118 class="plannedWorkDetail" &gt;[2] [N] [Q] trains provide alternate service
+&lt;br&gt;&lt;/b&gt;Late Nights, 11:45 PM to 5 AM, Mon to Fri, Nov 10 - 14
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;[4] Service operates in two sections:
+&lt;br&gt;&lt;/b&gt;  1. Between &lt;b&gt;Woodlawn&lt;/b&gt; and &lt;b&gt;Brooklyn Bridge&lt;/b&gt;, making local stops
+&lt;br&gt;  2. Between &lt;b&gt;Atlantic Av-Barclays Ctr&lt;/b&gt; and &lt;b&gt;New Lots Av&lt;/b&gt;,
+&lt;br&gt;      running &lt;i&gt;express &lt;/i&gt;between Atlantic Av-Barclays Ctr and Franklin Av
+&lt;br&gt;
+&lt;br&gt;&lt;table class=plannedworkTableStyle  width=80%&gt;&lt;tr&gt;&lt;td&gt;&lt;font size=3&gt;&lt;b&gt;Travel Alternatives&lt;/b&gt;&lt;/font&gt;&lt;td align=right&gt;[TP]&lt;/table&gt;
+&lt;br&gt;&lt;/font&gt;For service between &lt;b&gt;Manhattan&lt;/b&gt; and &lt;b&gt;Brooklyn&lt;/b&gt;, take the [D] or [Q].
+&lt;br&gt;
+&lt;br&gt;For &lt;b&gt;Lower Manhattan&lt;/b&gt; and &lt;b&gt;Downtown Brooklyn&lt;/b&gt;, take the [2] or [N].
+&lt;br&gt;
+&lt;br&gt;&lt;table class=plannedworkTableStyle  width=80% cellpadding=3 rules=rows frame=hsides&gt;&lt;tr bgcolor=FAF8CC&gt;&lt;td&gt;&lt;b&gt;Affected Station&lt;/b&gt;&lt;td&gt;&lt;b&gt;Alternate Station/Service&lt;/b&gt;&lt;tr&gt;&lt;td rowspan=3&gt;&lt;/font&gt;&lt;a href=http://web.mta.info/weekender/tileMap.html?staID=10055 target=_blank&gt;&lt;font color=#0000FF&gt;&lt;u&gt;Brooklyn Bridge&lt;/font&gt;&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;  [ad]  &lt;i&gt;uptown &lt;/i&gt;[4] [6]&lt;td&gt;City Hall  [N]&lt;tr&gt;&lt;td&gt;Park Place  [2]&lt;tr&gt;&lt;td&gt;Chambers St  [J]&lt;tr&gt;&lt;td rowspan=2&gt;&lt;/font&gt;&lt;a href=http://web.mta.info/weekender/tileMap.html?staID=10139 target=_blank&gt;&lt;font color=#0000FF&gt;&lt;u&gt;Fulton St&lt;/font&gt;&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;&lt;td&gt;[2]  [A] [F]*  [J]&lt;tr&gt;&lt;td&gt;Cortlandt St  [N]&lt;tr&gt;&lt;td rowspan=3&gt;&lt;/font&gt;&lt;a href=http://web.mta.info/weekender/tileMap.html?staID=10057 target=_blank&gt;&lt;font color=#0000FF&gt;&lt;u&gt;Wall St&lt;/font&gt;&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;&lt;td&gt;Rector St  [N]&lt;tr&gt;&lt;td&gt;Wall St  [2]&lt;tr&gt;&lt;td&gt;Broad St  [J]&lt;tr&gt;&lt;td&gt;&lt;/font&gt;&lt;a href=http://web.mta.info/weekender/tileMap.html?staID=10058 target=_blank&gt;&lt;font color=#0000FF&gt;&lt;u&gt;Bowling Green&lt;/font&gt;&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;&lt;td&gt;Whitehall St  [N]&lt;tr&gt;&lt;td rowspan=3&gt;&lt;/font&gt;&lt;a href=http://web.mta.info/weekender/tileMap.html?staID=10010 target=_blank&gt;&lt;font color=#0000FF&gt;&lt;u&gt;Borough Hall&lt;/font&gt;&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;&lt;td&gt;[ad]  [2]&lt;tr&gt;&lt;td&gt;Court St  [N]&lt;tr&gt;&lt;td&gt;Jay St-MetroTech  [ad]  [A] [F]  [N]&lt;tr&gt;&lt;td rowspan=2&gt;&lt;/font&gt;&lt;a href=http://web.mta.info/weekender/tileMap.html?staID=10012 target=_blank&gt;&lt;font color=#0000FF&gt;&lt;u&gt;Nevins St&lt;/font&gt;&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;&lt;td&gt;[2]&lt;tr&gt;&lt;td&gt;DeKalb Av  [ad]  [D] [N] [Q]&lt;tr&gt;&lt;td&gt;Bergen St&lt;td&gt;[2]&lt;tr&gt;&lt;td&gt;Grand Army Plaza&lt;td&gt;[2]&lt;tr&gt;&lt;td&gt;Eastern Pkwy&lt;td&gt;[2]&lt;/table&gt;
+&lt;br&gt;&lt;table class=plannedworkTableStyle  width=80% cellpadding=3 rules=rows frame=hsides&gt;&lt;tr bgcolor=000000&gt;&lt;td colspan=2&gt;&lt;font color=#FAF8CC&gt;&lt;b&gt;Key Transfer Stations&lt;/b&gt;&lt;/font&gt;&lt;tr&gt;&lt;td&gt;Bleecker St/B'way-Lafayette St  [ad]&lt;td&gt;[4] and [D]&lt;tr&gt;&lt;td&gt;Canal St&lt;td&gt;[4] and [N] [Q]&lt;tr&gt;&lt;td&gt;Brooklyn Bridge/Chambers St&lt;td&gt;[4] and [J]&lt;tr&gt;&lt;td&gt;Atlantic Av-Barclays Ctr  [ad]&lt;td&gt;[4] and [2] [D] [N] [Q]&lt;tr&gt;&lt;td&gt;Franklin Av&lt;td&gt;[2] and [4]&lt;/table&gt;
+&lt;br&gt;&lt;i&gt;*This detour has taken into account additional planned service changes.
+&lt;br&gt;
+&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;table class=plannedworkTableStyle  border=1 cellspacing=1 cellpadding=5 rules=none frame=box&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;[ad]&amp;nbsp;&amp;nbsp;&lt;td&gt;&lt;font size=1&gt;This service change affects one or more ADA accessible stations. Please call 511 for help with planning&lt;br&gt;your trip. If you are deaf or hard of hearing, use your preferred relay service provider or the free 711 relay.&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/table&gt;
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+      <Date>11/12/2014</Date>
+      <Time>12:03AM</Time>
+    </line>
+    <line>
+      <name>7</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>ACE</name>
+      <status>PLANNED WORK</status>
+      <text>
+                    &lt;span class="TitlePlannedWork" &gt;Planned Work&lt;/span&gt;
+                    &lt;br/&gt;
+                  &lt;a class="plannedWorkDetailLink" onclick=ShowHide(83307);&gt;
+&lt;b&gt;[A] Ozone Park/Far Rockaway-bound trains run express from Hoyt-Schermerhorn to Utica Av
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 83307 class="plannedWorkDetail" &gt;&lt;/b&gt;Late Nights, 11:45 PM to 5 AM, Mon to Fri, until Nov 21
+&lt;br&gt;
+&lt;br&gt;For service &lt;i&gt;to &lt;/i&gt;Lafayette, Clinton-Washington, Franklin and Kingston-Throop Avs,
+&lt;br&gt;take the [A] &lt;/font&gt;to Utica Av and transfer to an Inwood-bound [A].
+&lt;br&gt;
+&lt;br&gt;For service &lt;i&gt;from &lt;/i&gt;these stations, take the [A] to Hoyt-Schermerhorn and transfer
+&lt;br&gt;to an Ozone Park/Far Rockaway-bound [A]. 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;&lt;i&gt;Alternate travel note:
+&lt;br&gt;&lt;/b&gt;&lt;/i&gt;Transfer between trains with &lt;a href=http://mta.info/metrocard/mcgtreng.htm#unlimited target=_blank&gt;&lt;font color=#0000FF&gt;&lt;b&gt;&lt;u&gt;Unlimited Ride MetroCard&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;/a&gt; at Nostrand Av.
+&lt;br&gt;
+&lt;br&gt;&lt;table class=plannedworkTableStyle  border=1 cellspacing=1 cellpadding=5 rules=none frame=box&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;[ad]&amp;nbsp;&amp;nbsp;&lt;td&gt;&lt;font size=1&gt;This service change affects one or more ADA accessible stations. Please call 511 for help with planning&lt;br clear=left&gt;your trip. If you are deaf or hard of hearing, use your preferred relay service provider or the free 711 relay.&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/table&gt;
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+      <Date>11/12/2014</Date>
+      <Time>12:03AM</Time>
+    </line>
+    <line>
+      <name>BDFM</name>
+      <status>PLANNED WORK</status>
+      <text>
+                    &lt;span class="TitlePlannedWork" &gt;Planned Work&lt;/span&gt;
+                    &lt;br/&gt;
+                  &lt;a class="plannedWorkDetailLink" onclick=ShowHide(83296);&gt;
+&lt;b&gt;[FT]&lt;br clear=left&gt;[F] No trains at B'way-Lafayette St, 2 Av, Delancey St, East Broadway and York St&lt;/font&gt;&lt;br clear=left&gt;[SB] Free shuttle buses and [D] [J] trains provide alternate service
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 83296 class="plannedWorkDetail" &gt;&lt;/b&gt;Late Nights, 10 PM to 5 AM, Mon to Fri, Nov 10 - 14
+&lt;br&gt;
+&lt;br&gt;[F] Trains run via the [A] in both directions between W 4 St and Jay St-MetroTech.
+&lt;br&gt;
+&lt;br&gt;&lt;/font&gt;[SB] Free shuttle buses operate along two routes:
+&lt;br&gt;  1. Between &lt;b&gt;B'way-Lafayette St&lt;/b&gt; and &lt;b&gt;East Broadway&lt;/b&gt;, stopping at &lt;b&gt;2 Av&lt;/b&gt; and &lt;b&gt;Delancey St
+&lt;br&gt;&lt;/b&gt;  2. Between &lt;b&gt;York St&lt;/b&gt; and &lt;b&gt;Jay St-MetroTech
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;table class=plannedworkTableStyle &gt;&lt;tr&gt;&lt;td&gt;&lt;font size=3&gt;&lt;b&gt;Travel Alternatives&lt;/b&gt;&lt;/font&gt;&lt;td align=center&gt;[TP]&lt;td align=right&gt;&lt;b&gt;&lt;i&gt;FASTRACK&lt;/i&gt; map  |  &lt;a href=http://web.mta.info/nyct/service/FASTRACK_mapF_Jun11_10_14.pdf target=_blank&gt;&lt;font color=#0000FF&gt;&lt;u&gt;pdf&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;&lt;tr&gt;&lt;td colspan=3&gt;&amp;nbsp;&lt;tr&gt;&lt;td colspan=3&gt;&lt;/font&gt;&lt;table class=plannedworkTableStyle  border=1 cellspacing=1 cellpadding=2 rules=rows frame=hsides&gt;&lt;tr bgcolor=FAF8CC&gt;&lt;td&gt;&lt;b&gt;Affected Station&lt;/b&gt;&lt;td&gt;&lt;b&gt;Alternate Station/Service&lt;/b&gt;&lt;tr&gt;&lt;td&gt;B'way-Lafayette St&lt;td&gt; [D] via transfer at W 4 St or 4 Av-9 St*&lt;tr&gt;&lt;td&gt;Delancey St&lt;td&gt;[J] via transfer at Fulton St&lt;tr&gt;&lt;td&gt;2 Av, East Broadway&lt;td&gt;[SB] via &lt;/font&gt;B'way-Lafayette St [D] or Delancey St [J]&lt;tr&gt;&lt;td rowspan=2&gt;York St&lt;td&gt;[F] at &lt;/font&gt;nearby &lt;a href=http://web.mta.info/weekender/tileMap.html?staID=10262 target=_blank&gt;&lt;font color=#0000FF&gt;&lt;b&gt;&lt;u&gt;&lt;/font&gt;High St&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;&lt;/font&gt; [A] station&lt;tr&gt;&lt;td&gt;[SB] via Jay St-MetroTech&lt;/table&gt;
+&lt;br&gt;&lt;i&gt;*This detour has taken into account additional planned service changes.
+&lt;br&gt;
+&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;table class=plannedworkTableStyle  border=1 cellspacing=1 cellpadding=5 rules=none frame=box&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;[ad]&amp;nbsp;&amp;nbsp;&lt;td&gt;&lt;font size=1&gt;This service change affects one or more ADA accessible stations. Please call 511 for help with planning&lt;br&gt;your trip. If you are deaf or hard of hearing, use your preferred relay service provider or the free 711 relay.&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/table&gt;&lt;/table&gt;
+&lt;br&gt;&lt;a href=http://web.mta.info/nyct/service/fastrackSchedule2014.htm target=_blank&gt;&lt;font color=#0000FF&gt;&lt;b&gt;&lt;u&gt;Click here&lt;/u&gt; for the 2014 &lt;i&gt;FASTRACK&lt;/i&gt; schedule.&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;
+&lt;br&gt;&lt;/font&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              
+                    &lt;span class="TitlePlannedWork" &gt;Planned Work&lt;/span&gt;
+                    &lt;br/&gt;
+                  &lt;a class="plannedWorkDetailLink" onclick=ShowHide(83310);&gt;
+&lt;b&gt;[D] Norwood-bound trains skip 155, 161, 167, 170, 174-175 and 182-183 Sts
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 83310 class="plannedWorkDetail" &gt;&lt;/b&gt;Late Nights, 10:45 PM to 5 AM, Mon to Fri, &lt;/font&gt;Nov 10 - 14
+&lt;br&gt;
+&lt;br&gt;For service &lt;i&gt;to &lt;/i&gt;these stations, take the [D] to Tremont Av or Fordham Rd and transfer
+&lt;br&gt;to a Coney Island-bound [D].
+&lt;br&gt;
+&lt;br&gt;For service &lt;i&gt;from &lt;/i&gt;these stations, take the [D] to Tremont Av or 145 St and transfer
+&lt;br&gt;to a Norwood-bound [D].
+&lt;br&gt;
+&lt;br&gt;&lt;/font&gt;&lt;table class=plannedworkTableStyle  border=1 cellspacing=1 cellpadding=5 rules=none frame=box&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;[ad]&amp;nbsp;&amp;nbsp;&lt;td&gt;&lt;font size=1&gt;This service change affects one or more ADA accessible stations. Please call 511 for help with planning&lt;br&gt;your trip. If you are deaf or hard of hearing, use your preferred relay service provider or the free 711 relay.&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/table&gt;
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+      <Date>11/12/2014</Date>
+      <Time>12:03AM</Time>
+    </line>
+    <line>
+      <name>G</name>
+      <status>PLANNED WORK</status>
+      <text>
+                    &lt;span class="TitlePlannedWork" &gt;Planned Work&lt;/span&gt;
+                    &lt;br/&gt;
+                  &lt;a class="plannedWorkDetailLink" onclick=ShowHide(83322);&gt;
+&lt;b&gt;[G] No trains between Metropolitan Av and Bedford-Nostrand Avs
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 83322 class="plannedWorkDetail" &gt;[SB] Free shuttle buses provide alternate service
+&lt;br&gt;&lt;/b&gt;&lt;/font&gt;Late Nights, 10:30 PM to 5 AM, Mon to Fri, Nov 10 - 14
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;[G] service operates in two sections:
+&lt;br&gt;&lt;/b&gt;  1. Between &lt;b&gt;Court Sq&lt;/b&gt; and &lt;b&gt;Metropolitan Av&lt;/b&gt;, every 20 minutes
+&lt;br&gt;  2. Between &lt;b&gt;Bedford-Nostrand Avs&lt;/b&gt; and &lt;b&gt;Church Av&lt;/b&gt;, every 15 minutes
+&lt;br&gt;
+&lt;br&gt;[SB] Free shuttle buses make all stops between &lt;b&gt;Metropolitan Av and Bedford-Nostrand Avs&lt;/b&gt;,
+&lt;br&gt;     stopping at &lt;b&gt;Broadway, Flushing Av &lt;/b&gt;and&lt;b&gt; Myrtle-Willoughby Avs&lt;/b&gt;.
+&lt;br&gt;
+&lt;br&gt;&amp;#149; Transfer between&lt;b&gt; &lt;/b&gt;trains and buses at &lt;b&gt;Metropolitan Av&lt;/b&gt; or &lt;b&gt;Bedford-Nostrand Avs&lt;/b&gt;.
+&lt;br&gt;
+&lt;br&gt;&lt;font size=3&gt;&lt;b&gt;&lt;a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(833220);&gt;Show Shuttle Bus Stops&lt;/a&gt;&lt;/b&gt;&lt;/font&gt;
+&lt;br&gt;&lt;div id="833220"; style="display:none;"&gt;&lt;table class=plannedworkTableStyle  border=1 cellspacing=1 cellpadding=3 rules=rows frame=hsides&gt;&lt;tr bgcolor=#FAF8CC&gt;&lt;td&gt;&lt;b&gt;Station&lt;/b&gt;&lt;td&gt;&lt;b&gt;Shuttle Bus Stop&lt;/b&gt;&lt;tr&gt;&lt;td&gt;&lt;/font&gt;Metropolitan Av  [G] [L]&lt;td&gt;Union Av at Metropolitan Av&lt;tr&gt;&lt;td&gt;Broadway&lt;td&gt;Union Av at Broadway&lt;tr&gt;&lt;td rowspan=2&gt;Flushing Av&lt;td&gt;Lee Av at Flushing Av (to Bedford-Nostrand Avs)&lt;tr&gt;&lt;td&gt;Marcy Av at Flushing Av (to Metropolitan Av)&lt;tr&gt;&lt;td rowspan=2&gt;Myrtle-Willoughby Avs&lt;td&gt;Nostrand Av at Myrtle Av (to Bedford-Nostrand Avs)&lt;tr&gt;&lt;td&gt;Marcy Av at Myrtle Av (to Metropolitan Av)&lt;tr&gt;&lt;td&gt;Bedford-Nostrand Avs  [G]&lt;td&gt;Lafayette Av at Bedford Av&lt;/table&gt;&lt;/div&gt;
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+      <Date>11/12/2014</Date>
+      <Time>12:03AM</Time>
+    </line>
+    <line>
+      <name>JZ</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>L</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>NQR</name>
+      <status>DELAYS</status>
+      <text>
+                    &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;11/12/2014&amp;nbsp;12:07AM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  Following an earlier incident at &lt;STRONG&gt;New Utrecht Av&lt;/STRONG&gt;, [N] train service has resumed with residual delays.
+                &lt;br/&gt;&lt;br/&gt;
+              
+                    &lt;span class="TitlePlannedWork" &gt;Planned Work&lt;/span&gt;
+                    &lt;br/&gt;
+                  &lt;a class="plannedWorkDetailLink" onclick=ShowHide(83413);&gt;
+&lt;b&gt;[R] No shuttle train between 59 St and 36 St
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 83413 class="plannedWorkDetail" &gt;&lt;/b&gt;Late Nights, 11:45 PM to 5 AM, Mon to Fri, Nov 10 - 14
+&lt;br&gt;
+&lt;br&gt;&lt;/font&gt;&lt;b&gt;[R]&lt;/b&gt; service operates between &lt;b&gt;95 St&lt;/b&gt; and &lt;b&gt;59 St&lt;/b&gt;.
+&lt;br&gt;
+&lt;br&gt;&amp;#149; Take the &lt;b&gt;[N]&lt;/b&gt; instead. Transfer between trains at 59 St.
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+      <Date>11/12/2014</Date>
+      <Time>12:07AM</Time>
+    </line>
+    <line>
+      <name>S</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>SIR</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+  </subway>
+  <bus>
+    <line>
+      <name>B1 - B84</name>
+      <status>PLANNED WORK</status>
+      <text>
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(85047);&gt;
+&lt;b&gt;B44 and B44 &lt;/b&gt;SBS&lt;b&gt; - Southbound bus stop on Nostrand Av at Gates Av temporarily relocated
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 85047 class="plannedWorkDetail" &gt;&lt;/b&gt;Beginning Mon, Nov 4 until further notice
+&lt;br&gt;
+&lt;br&gt;Due to construction, please follow directional signage to the nearby temporary stop&lt;b&gt; on Nostrand Av &lt;/b&gt;at Monroe St.
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(83697);&gt;
+&lt;b&gt;B32, B62 and Q59 - Northbound/Eastbound bus stop on Broadway at Roebling St&lt;br clear=left&gt;temporarily relocated
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 83697 class="plannedWorkDetail" &gt;&lt;/b&gt;Until further notice
+&lt;br&gt;
+&lt;br&gt;Due to construction, please use the nearby stop &lt;b&gt;on Broadway&lt;/b&gt; at Driggs Av for 
+&lt;br&gt;&lt;b&gt;northbound B32&lt;/b&gt;, &lt;b&gt;B62&lt;/b&gt; and &lt;b&gt;eastbound Q59&lt;/b&gt; service.
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            </text>
+      <Date>11/12/2014</Date>
+      <Time>12:03AM</Time>
+    </line>
+    <line>
+      <name>B100 - B103</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>BM1 - BM5</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>BX1 - BX55</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>BXM1 - BXM18</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>M1 - M116</name>
+      <status>SERVICE CHANGE</status>
+      <text>
+                  &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;11/12/2014&amp;nbsp;12:04AM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;M9&lt;/STRONG&gt; and &lt;STRONG&gt;M14A&lt;/STRONG&gt; buses are detoured in both directions, due to paving on Houston St and Essex St. &lt;/P&gt;
+&lt;P&gt;Detour is as follows: &lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;M9 Northbound&lt;/STRONG&gt;: Via Essex St, left on Rivington St, right on Allen St, right on Houston St and regular route. &lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;M9 Southbound&lt;/STRONG&gt;: Via Houston St, left on Allen St, left on Delancey St, right on Essex St and regular route. &lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;M14A Eastbound&lt;/STRONG&gt;: Via 14 St, right on 2 Av,left on Houston St, right on Allen St, left on Delancey St, right on Essex St and regular route. &lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;M14A Westbound&lt;/STRONG&gt;: Via Essex St, left on Delancey St, right on Allen St, left on 14 St and regular route.&lt;/P&gt;
+&lt;P&gt;All corresponding stops will be made. &lt;/P&gt;
+&lt;P&gt;Allow additional travel time. &lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;11/12/2014&amp;nbsp;12:04AM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;M42&lt;/STRONG&gt; buses are running with delays westbound, due to heavy traffic on 42 St from Broadway to 9 Av. &lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(69967);&gt;
+&lt;b&gt;M86 - Temporary bus stop change on W 86 St at Broadway
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 69967 class="plannedWorkDetail" &gt;&lt;/b&gt;Until further notice
+&lt;br&gt;
+&lt;br&gt;Due to construction:
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Eastbound&lt;/b&gt;:  The first stop is &lt;b&gt;on W 87 St &lt;/b&gt;at West End Av.
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Westbound&lt;/b&gt;:  The last stop is &lt;b&gt;on W 86 St &lt;/b&gt;between Broadway and Amsterdam Av.
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(69002);&gt;
+&lt;b&gt;M4 - Bus stop on Fort Washington Av between 178 St and 179 St temporarily closed
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 69002 class="plannedWorkDetail" &gt;&lt;/b&gt;Until late Spring 2015
+&lt;br&gt;
+&lt;br&gt;Due to &lt;a href=http://www.panynj.gov/bus-terminals/gwbbs-renovation.html target=_blank&gt;&lt;font color=#0000FF&gt;&lt;b&gt;&lt;u&gt;construction&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;, please use the nearby stop &lt;b&gt;on&lt;/b&gt; &lt;b&gt;Fort Washington Av&lt;/b&gt; at 177 St in both directions.
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(77041);&gt;
+&lt;b&gt;M2/M2&lt;/b&gt; LTD&lt;b&gt; and M3 - Southbound bus stop on Broadway at 168 St temporarily relocated
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 77041 class="plannedWorkDetail" &gt;&lt;/b&gt;Until further notice
+&lt;br&gt;
+&lt;br&gt;Due to construction, please follow directional signage to temporary stops &lt;b&gt;on 168 St&lt;/b&gt; at Audubon Av&lt;br clear =left&gt;(M2) and &lt;b&gt;on Broadway &lt;/b&gt;at 168 St (M3).
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            </text>
+      <Date>11/12/2014</Date>
+      <Time>12:04AM</Time>
+    </line>
+    <line>
+      <name>Q1 - Q113</name>
+      <status>PLANNED WORK</status>
+      <text>
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(68484);&gt;
+&lt;b&gt;Q69 - Southbound bus stop on 28 St between Queens Plaza South and 42 Rd&lt;br clear=left&gt; temporarily relocated
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 68484 class="plannedWorkDetail" &gt;&lt;/b&gt;Until further notice
+&lt;br&gt;
+&lt;br&gt;Due to construction, please use the temporary stop &lt;b&gt;on 42 Rd&lt;/b&gt; between Jackson Av and 28 St.
+&lt;br&gt;&lt;/font&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(84596);&gt;
+&lt;b&gt;Q37 buses rerouted from the Casino Bus Stop Area 
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 84596 class="plannedWorkDetail" &gt;&lt;/b&gt;5:30 AM to 1:30 AM, every day, until late December
+&lt;br&gt;
+&lt;br&gt;Due to construction, buses run via &lt;b&gt;Casino Rd&lt;/b&gt; making corresponding stops.
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;&lt;i&gt;&lt;a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(845960);&gt;Show Reroute Details&lt;/a&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;br&gt;&lt;div id="845960"; style="display:none;"&gt;Via Rockaway Blvd
+&lt;br&gt;Enter Casino and continue straight on Casino Rd
+&lt;br&gt;Passing regular bus stop area then regular route
+&lt;br&gt;
+&lt;br&gt;Leaving bus stop use left side of double road through lot
+&lt;br&gt;toward exit of casino then regular route&lt;/div&gt;
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(81538);&gt;
+&lt;b&gt;Q111 and Q114 - Southbound temporary bus stop closure on 147 Av at Springfield Ln
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 81538 class="plannedWorkDetail" &gt;&lt;/b&gt;Until further notice
+&lt;br&gt;
+&lt;br&gt;Due to construction, please use the nearby stop &lt;b&gt;on 147 Av &lt;/b&gt;at 225 St.
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(84918);&gt;
+&lt;b&gt;Q111 and Q114&lt;/b&gt; LTD&lt;b&gt; - Northbound bus stop on 222 St at 147 Av temporarily closed
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 84918 class="plannedWorkDetail" &gt;&lt;/b&gt;Until further notice
+&lt;br&gt;
+&lt;br&gt;Due to construction, please use the nearby stop &lt;b&gt;on 225 St &lt;/b&gt;at 147 Av.
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(83697);&gt;
+&lt;b&gt;B32, B62 and Q59 - Northbound/Eastbound bus stop on Broadway at Roebling St&lt;br clear=left&gt;temporarily relocated
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 83697 class="plannedWorkDetail" &gt;&lt;/b&gt;Until further notice
+&lt;br&gt;
+&lt;br&gt;Due to construction, please use the nearby stop &lt;b&gt;on Broadway&lt;/b&gt; at Driggs Av for 
+&lt;br&gt;&lt;b&gt;northbound B32&lt;/b&gt;, &lt;b&gt;B62&lt;/b&gt; and &lt;b&gt;eastbound Q59&lt;/b&gt; service.
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            </text>
+      <Date>11/12/2014</Date>
+      <Time>12:03AM</Time>
+    </line>
+    <line>
+      <name>QM1 - QM25</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>S40 - S98</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>x1 - x68</name>
+      <status>PLANNED WORK</status>
+      <text>
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(75540);&gt;
+&lt;b&gt;X17A/C and X19 - Southbound bus stop on Broadway between Cedar St and Thames St&lt;br clear=left&gt;temporarily relocated &lt;/b&gt;-&lt;b&gt; &lt;/b&gt;&lt;i&gt;Revised
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 75540 class="plannedWorkDetail" &gt;&lt;/i&gt;Until Saturday, &lt;i&gt;Nov 15
+&lt;br&gt;
+&lt;br&gt;&lt;/i&gt;Due to construction, please follow directional signage to nearby temporary stops &lt;b&gt;on Broadway&lt;/b&gt;&lt;br clear=left&gt;at &lt;i&gt;Exchange Pl and Morris St.
+&lt;br&gt;
+&lt;br&gt;&lt;/i&gt;&lt;b&gt;Note&lt;/b&gt;:&lt;b&gt;  &lt;/b&gt;Additional changes are expected in mid-November as construction progresses.
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Reminder&lt;/b&gt;:  X17A and X19 buses do not operate on weekends.
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(75564);&gt;
+&lt;b&gt;X12 - Southbound bus stop on Liberty St at Cortlandt St temporarily relocated
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 75564 class="plannedWorkDetail" &gt;&lt;/b&gt;Until Friday, Dec 19
+&lt;br&gt;
+&lt;br&gt;Due to construction, please follow directional signage to the nearby temporary stop
+&lt;br&gt;&lt;b&gt;on Broadway&lt;/b&gt; at Thames St.
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(75557);&gt;
+&lt;b&gt;X10 - Southbound bus stop on Broadway between Rector St and Pine St&lt;br clear=left&gt; temporarily relocated &lt;/b&gt;-&lt;b&gt; &lt;/b&gt;&lt;i&gt;Revised
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 75557 class="plannedWorkDetail" &gt;&lt;/i&gt;Until Saturday, &lt;i&gt;Nov 15&lt;/i&gt; 
+&lt;br&gt;
+&lt;br&gt;Due to construction, please follow directional signage to the nearby temporary stop&lt;b&gt; on Broadway&lt;/b&gt; at &lt;i&gt;Exchange Pl and Vesey St&lt;/i&gt;.
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Note&lt;/b&gt;:  Additional changes are expected in mid-November as construction progresses.
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(82373);&gt;
+&lt;b&gt;X1 - Southbound bus stop on Broadway between Rector St and Pine St&lt;br clear=left&gt; temporarily relocated
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 82373 class="plannedWorkDetail" &gt;&lt;/b&gt;Until Saturday, Dec 20
+&lt;br&gt;
+&lt;br&gt;Due to construction, please follow directional signage to the nearby temporary stop
+&lt;br&gt;&lt;b&gt;on Broadway &lt;/b&gt;at Cedar St.
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            </text>
+      <Date>11/12/2014</Date>
+      <Time>12:03AM</Time>
+    </line>
+  </bus>
+  <BT>
+    <line>
+      <name>Bronx-Whitestone</name>
+      <status>SERVICE CHANGE</status>
+      <text>
+                    &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;07/24/2014&amp;nbsp; 6:19AM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  BWB - 6 AM to 3 PM Three (3) Lanes Bronx-bound. Two (2) Lanes Queens-bound. 3 PM to 6 AM Three (3) Lanes Queens-bound. Two (2) Lanes Bronx-bound.
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+      <Date>07/24/2014</Date>
+      <Time> 6:19AM</Time>
+    </line>
+    <line>
+      <name>Cross Bay</name>
+      <status>SERVICE CHANGE</status>
+      <text>
+                    &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;11/11/2014&amp;nbsp;11:38PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  Due to heavy fog and road conditions motorists are asked to drive at reduced speeds
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+      <Date>11/11/2014</Date>
+      <Time>11:38PM</Time>
+    </line>
+    <line>
+      <name>Henry Hudson</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Hugh L. Carey</name>
+      <status>SERVICE CHANGE</status>
+      <text>
+                    &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;11/11/2014&amp;nbsp; 9:07PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  TWO WAY OPERATION IN THE WEST TUBE.&amp;nbsp; THE EAST TUBE IS CLOSED
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+      <Date>11/11/2014</Date>
+      <Time> 9:07PM</Time>
+    </line>
+    <line>
+      <name>Marine Parkway</name>
+      <status>SERVICE CHANGE</status>
+      <text>
+                    &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;11/11/2014&amp;nbsp;11:38PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  Due to heavy fog and road conditions motorists are asked to drive at reduced speeds
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+      <Date>11/11/2014</Date>
+      <Time>11:38PM</Time>
+    </line>
+    <line>
+      <name>Queens Midtown</name>
+      <status>PLANNED WORK</status>
+      <text>
+                    &lt;span class="TitlePlannedWork" &gt;Planned Work&lt;/span&gt;
+                    &lt;br/&gt;
+                  The Manhattan (westbound) tube is closed and two way operation is in effect in the Queens bound (eastbound tube
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+      <Date>11/11/2014</Date>
+      <Time>11:39PM</Time>
+    </line>
+    <line>
+      <name>Robert F. Kennedy</name>
+      <status>SERVICE CHANGE</status>
+      <text>
+                    &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;11/11/2014&amp;nbsp;11:38PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  Due to heavy fog and road conditions motorists are asked to drive at reduced speeds
+                &lt;br/&gt;&lt;br/&gt;
+              
+                    &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;11/10/2014&amp;nbsp;11:22PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  &lt;P style="MARGIN: 0in 0in 0pt" class=MsoPlainText&gt;&lt;FONT size=3&gt;&lt;FONT face=Calibri&gt;Planned work: One of two lanes on the RFK-Bronx ramp to the Major Deegan Expressway will be closed around the clock for about two weeks starting Mon., Nov. 10 for roadway rehabilitation work. Motorists may experience delays. &lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P style="MARGIN: 0in 0in 0pt" class=MsoPlainText&gt;&lt;FONT size=3 face=Calibri&gt;&amp;nbsp;&lt;/FONT&gt;&lt;/P&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+      <Date>11/11/2014</Date>
+      <Time>11:38PM</Time>
+    </line>
+    <line>
+      <name>Throgs Neck</name>
+      <status>SERVICE CHANGE</status>
+      <text>
+                    &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;11/11/2014&amp;nbsp;11:38PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  Due to heavy fog and road conditions motorists are asked to drive at reduced speeds
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+      <Date>11/11/2014</Date>
+      <Time>11:38PM</Time>
+    </line>
+    <line>
+      <name>Verrazano-Narrows</name>
+      <status>SERVICE CHANGE</status>
+      <text>
+                    &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;11/11/2014&amp;nbsp;11:38PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  Due to heavy fog and road conditions motorists are asked to drive at reduced speeds
+                &lt;br/&gt;&lt;br/&gt;
+              
+                    &lt;span class="TitlePlannedWork" &gt;Planned Work&lt;/span&gt;
+                    &lt;br/&gt;
+                  VERRAZANO NARROWS - S. I. BOUND LOWER LEVEL CLOSED
+                &lt;br/&gt;&lt;br/&gt;
+              
+                    &lt;span class="TitlePlannedWork" &gt;Planned Work&lt;/span&gt;
+                    &lt;br/&gt;
+                  &lt;P style="MARGIN: 0in 0in 0pt" &gt;&lt;FONT size=3&gt;&lt;FONT face=Calibri&gt;&lt;B&gt;Planned work&lt;/B&gt;: Verrazano-Narrows Bridge Upper Level Eastbound (Brooklyn bound) closed. &amp;nbsp;The lower level remains open.&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+      <Date>11/11/2014</Date>
+      <Time>11:38PM</Time>
+    </line>
+  </BT>
+  <LIRR>
+    <line>
+      <name>Babylon</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>City Terminal Zone</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Far Rockaway</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Hempstead</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Long Beach</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Montauk</name>
+      <status>DELAYS</status>
+      <text>
+                    &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;11/11/2014&amp;nbsp;11:40PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  &lt;p&gt;&lt;strong&gt;&lt;u&gt;Eastbound&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The 8:53PM train from Jamaica due Montauk at 11:57PM is operating 19 minutes late at this time.&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Westbound&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The 10:38PM train from Montauk due Jamaica at 1:47AM is operating 23 
+minutes late due to a late-arriving E/B train in single track territory.
+        &lt;/p&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+      <Date>11/11/2014</Date>
+      <Time>11:40PM</Time>
+    </line>
+    <line>
+      <name>Oyster Bay</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Port Jefferson</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Port Washington</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Ronkonkoma</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>West Hempstead</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+  </LIRR>
+  <MetroNorth>
+    <line>
+      <name>Hudson</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Harlem</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Wassaic</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>New Haven</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>New Canaan</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Danbury</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Waterbury</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Pascack Valley</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Port Jervis</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+  </MetroNorth>
+</service>
