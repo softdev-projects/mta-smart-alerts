@@ -1,8 +1,10 @@
 from flask import Flask, render_template, request, redirect, session
+from datetime import datetime
 
 import login
 import mta
 import sms
+import db
 
 app = Flask(__name__)
 
@@ -62,7 +64,7 @@ def registerPage():
         fieldPhone = request.form["phone"]
         fieldPassword = request.form["password"]
 
-        success = login.addUser(fieldUsername, fieldPassword, fieldPhone)
+        success = db.addUser(fieldUsername, fieldPassword, fieldPhone)
 
         if success:
             session["user"] = fieldUsername
@@ -72,16 +74,45 @@ def registerPage():
             return render_template("register.html", error=error)
 
 
-@app.route("/manage_account")
-@app.route("/manage_account/<username>")
-def manageAccountPage(username):
+@app.route("/manage_account", methods=["GET","POST"])
+def manageAccountPage():
     if "user" not in session:
         session["nextpage"] = "/manage_account"
         return redirect("/login")
     if "user" in session:
-        accountSettings = {}
+        if request.method=="GET":
+            return render_template("account_settings.html")
+
+        name=session["user"]
+        password=request.form["password"]
+        phone=request.form["phone"]
+        authenticated=True
+        
+        hour=request.form["hour"]
+        minute=request.form["minute"]
+        time=""
+        if hour and minute:
+            time=datetime(2014,10,11,int(hour),int(minute))
+
+        lines=request.form.getlist("lines")
+        
+
+
+        D={}
+        D['name']=name
+        D['password']=password
+        D['phone']=phone
+        D['authenticated']=authenticated
+        D['time']=time
+        D['lines']=lines
+
+
+        user = db.User(name,D)
+        db.updateUser(user)
+
+        return render_template("account_settings.html",error="Update successful.")
+
         # accountSettings = db.getAccountSettings(session["user"])
-        return render_template("account_settings.html", accountSettings)
 
 
 @app.route("/status")
