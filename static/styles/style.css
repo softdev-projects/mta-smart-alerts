@@ -193,3 +193,8 @@ body {
     float: left;
     width: 100px;
 }
+
+.right-float {
+    float: right;
+    width: 100px;
+}

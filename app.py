@@ -131,7 +131,7 @@ def statusPage():
                    'SIR': 'si_railway'}
 
     for delay in service.delays:
-        for line, color in line_colors.iteritems():
+        for line, color in line_colors.items():
             if delay.line == line:
                 delayed_lines.append([line, color])
                 del line_colors[line]
@@ -162,13 +162,12 @@ def handleRedirect(redirectPage="/"):
     return redirect(n)
 
 
-@app.route("/sms/receive",methods=["GET","POST"])
+@app.route("/sms/receive", methods=["GET", "POST"])
 def test():
-	if request.method=="GET":
-		sms.send_message("hello there",9174350162)
-	if request.method=="POST":
+    if request.method == "GET":
+        sms.send_message("hello there", 9174350162)
+    if request.method == "POST":
             print "haven't set up receiving messages yet"
-
 
 
 def main():

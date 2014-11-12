@@ -5,9 +5,9 @@ auth_token  = "hurrthisremovesthetwilioerror"
 client = TwilioRestClient(account_sid, auth_token)
 
 
-def send_message(message="hardcoded",number=9174350162):
+def send_message(message="hardcoded", number=9174350162):
     message = client.messages.create(body=message,
-    to="+1" + str(number),
-    from_="+14694782929")
+                                     to="+1" + str(number),
+                                     from_="+14694782929")
     print message.sid
-
+    return message.sid

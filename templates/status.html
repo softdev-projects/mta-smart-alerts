@@ -14,6 +14,11 @@
         <div class="pure-u-1-1">
             <div class="align-middle-horizontal">
                 <h3 class="is-center is-header">{% block header %}Delays{% endblock %}</h3>
+                {% if session['user'] %}
+                <form class="right-float" action="/send_message">
+                  <input type="submit" value="Text me the delays">
+                </form>
+                {% endif %}
 
                 {# Delayed lines #}
                 {% if service.has_delays() %}
