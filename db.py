@@ -149,3 +149,11 @@ def isInDatabase(user, dbname="users", dbCollectionName="people"):
     success = (people.find({'name': user.name}).count() >= 1)
 
     return success
+
+
+def getUser(username, dbname="user", dbCollectionName="people"):
+    conn = Connection()
+    db = conn[dbname]
+    people = db[dbCollectionName]
+
+    return people.find({'name': username})

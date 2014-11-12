@@ -78,50 +78,49 @@ def registerPage():
             return render_template("register.html", error=error)
 
 
-@app.route("/manage_account", methods=["GET","POST"])
+@app.route("/manage_account", methods=["GET", "POST"])
 def manageAccountPage():
     if "user" not in session:
         session["nextpage"] = "/manage_account"
         return redirect("/login")
     if "user" in session:
-        if request.method=="GET":
+        if request.method == "GET":
             return render_template("account_settings.html")
 
-        name=session["user"]
-        password=request.form["password"]
-        phone=request.form["phone"]
-        authenticated=True
+        name = session["user"]
+        password = request.form["password"]
+        phone = request.form["phone"]
+        authenticated = True
 
-        hour=request.form["hour"]
-        minute=request.form["minute"]
-        time=""
+        hour = request.form["hour"]
+        minute = request.form["minute"]
+        time = ""
         if hour and minute:
-            time=datetime(2014,10,11,int(hour),int(minute))
+            time = datetime(2014, 10, 11, int(hour), int(minute))
 
-        lines=request.form.getlist("lines")
+        lines = request.form.getlist("lines")
 
+        D = {}
+        D['name'] = name
+        D['password'] = password
+        D['phone'] = phone
+        D['authenticated'] = authenticated
+        D['time'] = time
+        D['lines'] = lines
 
-
-        D={}
-        D['name']=name
-        D['password']=password
-        D['phone']=phone
-        D['authenticated']=authenticated
-        D['time']=time
-        D['lines']=lines
-
-
-        user = db.User(name,D)
+        user = db.User(name, D)
         db.updateUser(user)
 
-        return render_template("account_settings.html",error="Update successful.")
+        return render_template("account_settings.html",
+                               error="Update successful.")
 
         # accountSettings = db.getAccountSettings(session["user"])
 
 
 @app.route("/status")
-def statusPage():
-    service = mta.service_status()
+def statusPage(service=None):
+    if not service:
+        service = mta.service_status()
 
     # separate the lines into delayed and normal for styling
     delayed_lines = []
@@ -144,12 +143,20 @@ def statusPage():
 
 @app.route("/status_fake")
 def status_page_fake():
-    with open("test/no_delay.xml") as f:
+    with open("test/delay.xml") as f:
         fake_xml = f.read()
 
     print fake_xml
     service = mta.MTASubwayStatus(fake_xml)
-    return render_template("status.html", service=service)
+    return statusPage(service)
+
+
+@app.route("/send_message")
+def send_delays():
+    if session['user']:
+        print session['user']
+        print db.getUser(session['user']).count()
+    return redirect("/")
 
 
 def handleRedirect(redirectPage="/"):
