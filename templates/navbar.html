@@ -4,7 +4,6 @@
 
         <ul id="std-menu-items">
             {% if session['user'] %}
-                <li><a href="/">{{ session['user'] }}</a></li>
                 <li><a href="/manage_account">Manage Account</a></li>
                 <li><a href="/logout">Logout</a></li>
             {% else %}
