@@ -16,7 +16,9 @@
         </div>
 
         <div class="pure-u-1-2">
+            {% block placement %}
             <div class="align-middle-vertical align-middle-horizontal">
+            {% endblock %}
                 <h3 class="is-center is-header">{% block header %}Log In{% endblock %}</h3>
                 <p class="error">{{ error }}</p>
                 <form method="post" accept-charset="utf-8" class="pure-form pure-form-stacked">
