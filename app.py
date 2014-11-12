@@ -88,70 +88,23 @@ def manageAccountPage(username):
 def statusPage():
     service = mta.service_status()
 
-    # separate the lines for styling
-    D = {'red': [],
-         'green': [],
-         'purple': [],
-         'blue': [],
-         'orange': [],
-         'gtrain': [],
-         'grey': [],
-         'brown': [],
-         'yellow': [],
-         'color': []}
-
-    red = ["1", "2", "3"]
-    green = ["4", "5", "6"]
-    purple = ["7"]
-    yellow = ["N", "Q", "R"]
-    blue = ["A", "C", "E"]
-    orange = ["B", "D", "F", "M"]
-    gtrain = ["G"]
-    grey = ["L", "S"]
-    brown = ["J", "Z"]
+    # separate the lines into delayed and normal for styling
+    delayed_lines = []
+    line_colors = {'123': 'red', '456': 'green', '7': 'purple', 'ACE': 'blue',
+                   'BDFM': 'orange', 'G': 'g_line', 'JZ': 'brown',
+                   'L': 'l_line', 'NQR': 'yellow', 'S': 's_shuttle',
+                   'SIR': 'si_railway'}
 
     for delay in service.delays:
-        if delay.line in red:
-            D['red'].append(delay.line)
-            red.remove(delay.line)
-        elif delay.line in green:
-            D['green'].append(delay.line)
-            green.remove(delay.line)
-        elif delay.line in purple:
-            D['purple'].append(delay.line)
-            purple.remove(delay.line)
-        elif delay.line in blue:
-            D['blue'].append(delay.line)
-            blue.remove(delay.line)
-        elif delay.line in orange:
-            D['orange'].append(delay.line)
-            orange.remove(delay.line)
-        elif delay.line in gtrain:
-            D['gtrain'].append(delay.line)
-            gtrain.remove(delay.line)
-        elif delay.line in grey:
-            D['grey'].append(delay.line)
-            grey.remove(delay.line)
-        elif delay.line in brown:
-            D['brown'].append(delay.line)
-            brown.remove(delay.line)
-        elif delay.line in yellow:
-            D['yellow'].append(delay.line)
-            yellow.remove(delay.line)
-        else:
-            D['color'].append(delay.line)
+        for line, color in line_colors.iteritems():
+            if delay.line == line:
+                delayed_lines.append([line, color])
+                del line_colors[line]
 
-    D2 = {'red': red,
-          'green': green,
-          'purple': purple,
-          'blue': blue,
-          'orange': orange,
-          'gtrain': gtrain,
-          'grey': grey,
-          'yellow': yellow,
-          'brown': brown}
-
-    return render_template("status.html", service=service, colors=D, running=D2)
+    print delayed_lines
+    print line_colors
+    return render_template("status.html", service=service,
+                           delayed_lines=delayed_lines, running=line_colors)
 
 
 @app.route("/status_fake")

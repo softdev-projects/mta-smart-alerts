@@ -14,29 +14,25 @@
         <div class="pure-u-1-1">
             <div class="align-middle-horizontal">
                 <h3 class="is-center is-header">{% block header %}Delays{% endblock %}</h3>
+
+                {# Delayed lines #}
                 {% if service.has_delays() %}
                 <p>As of {{ service.retrieved_at }},</p>
-                  {% for key, value in colors.iteritems() %}
-                    {% if value|length > 0 %}
-                        <div class="left-float">
-                        {% for line in value %}
-                            <div class={{key}}>{{line}}</div>
-                        {% endfor %}
-                        </div>
-                    {% endif %}
+                  {% for line in delayed_lines %}
+                    <div class="left-float">
+                      <div class={{line[1]}}>{{line[0]}}</div>
+                    </div>
                   {% endfor %}
                 {% else %}
                     <p>There are no delays</p>
                 {% endif %}
+
+                {# Normal lines #}
                 <h3 class="is-center is-header">Normal Service</h3>
-                {% for key, value in running.iteritems() %}
-                {% if value|length > 0 %}
-                    <div class="left-float">
-                    {% for line in value %}
-                        <div class={{key}}>{{line}}</div>
-                    {% endfor %}
-                    </div>
-                {% endif %}
+                {% for line, color in running.iteritems() %}
+                  <div class="left-float">
+                    <div class={{color}}>{{line}}</div>
+                  </div>
                 {% endfor %}
             </div>
         </div>

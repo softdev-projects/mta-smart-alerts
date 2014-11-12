@@ -98,7 +98,7 @@ body {
     line-height: 100px;
 }
 
-.grey {
+.l_line, .s_shuttle {
     float: left;
     width: 100px;
     height: 100px;
@@ -111,7 +111,7 @@ body {
     line-height: 100px;
 }
 
-.gtrain {
+.g_line {
     float: left;
     width: 100px;
     height: 100px;
@@ -155,6 +155,19 @@ body {
     width: 100px;
     height: 100px;
     background: #fccc0a;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+
+.si_railway {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #000;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
