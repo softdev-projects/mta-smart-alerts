@@ -64,11 +64,15 @@ def registerPage():
         fieldPhone = request.form["phone"]
         fieldPassword = request.form["password"]
 
-        success = db.addUser(fieldUsername, fieldPassword, fieldPhone)
+        user = db.User(fieldUsername)
+        user.setPassword(fieldPassword)
+        user.setPhone(fieldPhone)
+
+        success = db.addUser(user)
 
         if success:
             session["user"] = fieldUsername
-            handleRedirect()
+            return handleRedirect()
         else:
             error = errors["user-exists"]
             return render_template("register.html", error=error)
@@ -87,7 +91,7 @@ def manageAccountPage():
         password=request.form["password"]
         phone=request.form["phone"]
         authenticated=True
-        
+
         hour=request.form["hour"]
         minute=request.form["minute"]
         time=""
@@ -95,7 +99,7 @@ def manageAccountPage():
             time=datetime(2014,10,11,int(hour),int(minute))
 
         lines=request.form.getlist("lines")
-        
+
 
 
         D={}
