@@ -21,7 +21,9 @@
                 <p class="error">{{ error }}</p>
                 <form method="post" accept-charset="utf-8" class="pure-form pure-form-stacked">
                     <fieldset>
+                        {% block userinput %}
                         <input class="pure-u-1-1 extra-space" type="text" name="username" placeholder="username">
+                        {% endblock %}
 
                         <input class="pure-u-1-1 extra-space" type="password" name="password" placeholder="password">
                         {% block inputs %}

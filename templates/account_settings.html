@@ -1,0 +1,23 @@
+{% extends 'login.html' %}
+{% block title %}Profile{% endblock %}
+{% block header %}Update Your Information{% endblock %}
+{% block userinput %}{% endblock %}
+{% block inputs %}
+<input class="pure-u-1-1" type="text" name="phone" placeholder="917-123-1234"><br>
+When do you want to be notified?
+<input class="pure-u-1-2" type="text" name="hour" placeholder="Hour (0-24)">
+<input class="pure-u-1-2" type="text" name="minute" placeholder="Minute (0-60)"><br>
+Which train lines are you interested in?<br>
+<input type="checkbox" name="lines" value="sir">The Staten Island Railroad<br>
+<input type="checkbox" name="lines" value="g">G Train<br>
+<input type="checkbox" name="lines" value="bdfm">B,D,F,M Trains<br>
+<input type="checkbox" name="lines" value="l">L Train<br>
+<input type="checkbox" name="lines" value="456">4,5,6 Trains<br>
+<input type="checkbox" name="lines" value="s">S Train<br>
+<input type="checkbox" name="lines" value="123">1,2,3 Trains<br>
+<input type="checkbox" name="lines" value="jz">J,Z Trains<br>
+<input type="checkbox" name="lines" value="nqr">N,Q,R Trains<br>
+<input type="checkbox" name="lines" value="ace">A,C,E Trains<br>
+<input type="checkbox" name="lines" value="7">7 Train<br>
+
+{% endblock %}
