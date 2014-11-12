@@ -135,8 +135,6 @@ def statusPage(service=None):
                 delayed_lines.append([line, color])
                 del line_colors[line]
 
-    print delayed_lines
-    print line_colors
     return render_template("status.html", service=service,
                            delayed_lines=delayed_lines, running=line_colors)
 
@@ -154,8 +152,13 @@ def status_page_fake():
 @app.route("/send_message")
 def send_delays():
     if session['user']:
-        print session['user']
-        print db.getUser(session['user']).count()
+        if mta.service_status().has_delays():
+            message = 'there are some fucking delays'
+        else:
+            message = 'there are no fucking delays'
+
+        user = db.getUser(session['user'])
+        sms.send_message(message, int(user['phone']))
     return redirect("/")
 
 

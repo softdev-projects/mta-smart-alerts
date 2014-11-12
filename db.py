@@ -151,9 +151,9 @@ def isInDatabase(user, dbname="users", dbCollectionName="people"):
     return success
 
 
-def getUser(username, dbname="user", dbCollectionName="people"):
+def getUser(username, dbname="users", dbCollectionName="people"):
     conn = Connection()
     db = conn[dbname]
     people = db[dbCollectionName]
 
-    return people.find({'name': username})
+    return people.find_one({'name': username})
